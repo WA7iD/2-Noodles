@@ -590,11 +590,17 @@ footer p {
       linear-gradient(to right, var(--bk2-color), var(--bk2-color));
     padding: 0 20px;
   }
+  .landing__indactors {
+    padding-right: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1112px) {
   body {
     background-image: url(../images/noise\ layer.png),
       linear-gradient(to right, var(--bk2-color), var(--bk2-color));
     padding: 0 10px;
+  }
+  .landing__indactors {
+    padding-right: 20px;
   }
 }
